@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+
+
+
+
+.timer{
+  color:white;
+  font-family: 'Chakra Petch';
+  font-size: 4rem;
+  text-align: center;
+  margin-top:12%;
+  display: flex;
+  min-height:5%;
+  position: fixed;
+  
+  
+
+  
+  
+
+}
+.des {
+  
+  font-size: 1rem;
+  color: white;
+  margin-top:8%;
+  position: fixed;
+  font-family: 'Chakra Petch';
+  font-weight:lighter;
+  
+
+}
+.s span{
+  margin-right: '1rem';
+  letter-spacing:"3px";
+  font-size: "1rem";
+  font-family: "Chakra Petch"
+}
+
+.sp:not(:first-child){
+  margin-left:20%;
+}
+
+.img{
+  
+  position: fixed;
+}
+.int{
+  font-size:1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.sem{
+  font-size:1rem;
+  
+}
+body{
+  background-color:#0E1B42;
+}
+
+.wrap{
+  height: 100vh;
+  width:100vw;
+  margin: 0;
+  background-image: url('/Users/ashutosh/Projects/CountdownWire/react-hooks-counter/src/Code.svg');
+  background-position: 75% 80%;
+  background-repeat: no-repeat;
+  background-size: 80vh 80vh;
+  object-fit: contain;
+  display:inline-flex;
+  position: absolute;
+  
+}
+
+
+.parent{
+  position: fixed;
+  width:90vh;
+  height:100vh;
+  padding-left: 2rem;
+  
+  
+  
+}
+.text{
+  position: relative;
+  min-height: 50%;
+  width: 20rem;
+  max-width: 90% ;
+  color: white;
+  margin-top: 14rem;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  
+}
+
+.LOGOS{
+  display: inline-flex;
+  justify-content: center;
+  
+  list-style: none;
+}
+
+.iecse{
+  width: 110px;
+  height:40px;
+  background-image: url('/Users/ashutosh/Projects/CountdownWire/react-hooks-counter/src/image 6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top:2rem;
+
+
+}
+
+
+.wire{
+  width: 100px;
+  height:120px;
+  background-image: url('/Users/ashutosh/Projects/CountdownWire/react-hooks-counter/src/WireSymbol.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left:1rem;
+  margin-top:0.5rem;
+  
+}
+@media (max-width: 410px){
+  .sp:not(:first-child){
+    margin-left: 15%;
+    
+  }
+  .parent{
+    padding-left: 1rem;
+
+
+  }
+  .wire{
+    margin-top:0.05rem;
+  }
+}
+.inc{
+  color:white;
+  opacity:0.7;
+}
