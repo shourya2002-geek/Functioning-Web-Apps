@@ -74,7 +74,7 @@ function App() {
         <div className="LOGOS">
           <ul className="LOGOS">
             <li className="iecse"></li>
-            <span className="inc">/</span>
+            
             <li className="wire"></li>
 
           </ul>
